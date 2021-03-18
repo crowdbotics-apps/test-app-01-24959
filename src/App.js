@@ -18,6 +18,7 @@ export default class App extends React.Component {
      * add any aditional app config here,
      * don't use blocking requests here like HTTP requests since they block UI feedback
      * create HTTP requests and other blocking requests using redux saga
+     * test comment
      */
     await this.loadAssets()
     setupHttpConfig()
