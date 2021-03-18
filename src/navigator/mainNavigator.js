@@ -5,17 +5,18 @@ import { NavigationContainer } from "@react-navigation/native"
 import SplashScreen from "../features/SplashScreen"
 import SideMenu from "./sideMenu"
 //@BlueprintImportInsertion
-import ArticleList213620Navigator from '../features/ArticleList213620/navigator';
-import Maps213607Navigator from '../features/Maps213607/navigator';
+import ArticleList213620Navigator from "../features/ArticleList213620/navigator"
+import Maps213607Navigator from "../features/Maps213607/navigator"
 
 /**
  * new navigators can be imported here
- */
+ */ import Onboarding118215843 from "../features/Onboarding118215843/navigator"
 
 const AppNavigator = {
+  Onboarding118215843: { screen: Onboarding118215843 },
   //@BlueprintNavigationInsertion
-ArticleList213620: { screen: ArticleList213620Navigator },
-Maps213607: { screen: Maps213607Navigator },
+  ArticleList213620: { screen: ArticleList213620Navigator },
+  Maps213607: { screen: Maps213607Navigator },
 
   /** new navigators can be added here */
   SplashScreen: {
