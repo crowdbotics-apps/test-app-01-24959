@@ -11,8 +11,10 @@ import Maps213607Navigator from "../features/Maps213607/navigator"
 /**
  * new navigators can be imported here
  */ import Onboarding118215843 from "../features/Onboarding118215843/navigator"
+import Categories20215846 from "../features/Categories20215846/navigator"
 
 const AppNavigator = {
+  Categories20215846: { screen: Categories20215846 },
   Onboarding118215843: { screen: Onboarding118215843 },
   //@BlueprintNavigationInsertion
   ArticleList213620: { screen: ArticleList213620Navigator },
